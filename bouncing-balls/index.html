@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>Bouncing balls</title>
+        <link rel="stylesheet" href="css/original.css">
+        <!-- Inspired from https://github.com/robhawkes/google-bouncing-balls -->
+    </head>
+    <body>
+        <form type="get" id="inputform">		
+            Enter a message:
+            <input id="text_field" name="t" maxlength="30" type="text" />
+            <input id="hex_field" name="h" value="" type="hidden" />
+            <input id="submit_btn" value="Go" type="submit" />
+            <input name="rf" value="0.07" type="hidden" />
+            <input name="fr" value="0.83" type="hidden" />
+        </form>
+
+        <canvas id="c">
+            <p>Hello old timer!</p>
+            <p>Sorry, but this website requires HTML5. </p>
+            <p>You should check out <a href="http://www.google.com/chrome">chrome</a> or <a href="http://www.getfirefox.com/">firefox</a></p>
+            <p>then come back to play!</p>
+        </canvas>
+
+        <p id="effects">
+            <a href="index.html">Original</a> -
+            <a href="index.html?t=Tornado&amp;rf=0.07&amp;fr=0.83">Tornado</a> - 
+            <a href="index.html?t=Whirlpool%21&amp;rf=0.05&amp;fr=0.84">Whirlpool (Northern)</a> -
+            <a href="index.html?t=Whirlpool%21&amp;rf=-0.05&amp;fr=0.84">Whirlpool (Southern)</a>
+        </p>
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/alphabet.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

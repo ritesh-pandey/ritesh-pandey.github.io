@@ -1,0 +1,2067 @@
+var plugins = 
+[
+  {
+    "name": "cordova-plugin-whitelist",
+    "downloads": 80002
+  },
+  {
+    "name": "cordova-plugin-device",
+    "downloads": 45890
+  },
+  {
+    "name": "cordova-plugin-splashscreen",
+    "downloads": 44576
+  },
+  {
+    "name": "cordova-plugin-console",
+    "downloads": 41095
+  },
+  {
+    "name": "cordova-plugin-file",
+    "downloads": 14953
+  },
+  {
+    "name": "cordova-plugin-inappbrowser",
+    "downloads": 11342
+  },
+  {
+    "name": "cordova-plugin-camera",
+    "downloads": 11257
+  },
+  {
+    "name": "cordova-plugin-geolocation",
+    "downloads": 9683
+  },
+  {
+    "name": "cordova-plugin-network-information",
+    "downloads": 9199
+  },
+  {
+    "name": "cordova-plugin-dialogs",
+    "downloads": 8766
+  },
+  {
+    "name": "cordova-plugin-statusbar",
+    "downloads": 8021
+  },
+  {
+    "name": "cordova-plugin-file-transfer",
+    "downloads": 7973
+  },
+  {
+    "name": "cordova-plugin-crosswalk-webview",
+    "downloads": 6622
+  },
+  {
+    "name": "cordova-plugin-media",
+    "downloads": 4229
+  },
+  {
+    "name": "cordova-plugin-contacts",
+    "downloads": 3550
+  },
+  {
+    "name": "cordova-plugin-vibration",
+    "downloads": 3336
+  },
+  {
+    "name": "cordova-plugin-media-capture",
+    "downloads": 3330
+  },
+  {
+    "name": "cordova-plugin-battery-status",
+    "downloads": 3268
+  },
+  {
+    "name": "cordova-plugin-globalization",
+    "downloads": 3185
+  },
+  {
+    "name": "phonegap-plugin-push",
+    "downloads": 3057
+  },
+  {
+    "name": "cordova-plugin-device-orientation",
+    "downloads": 2529
+  },
+  {
+    "name": "phonegap-plugin-barcodescanner",
+    "downloads": 2385
+  },
+  {
+    "name": "cordova-plugin-device-motion",
+    "downloads": 2375
+  },
+  {
+    "name": "cordova-plugin-google-analytics",
+    "downloads": 2035
+  },
+  {
+    "name": "ionic-plugin-keyboard",
+    "downloads": 1875
+  },
+  {
+    "name": "cordova-plugin-datepicker",
+    "downloads": 1787
+  },
+  {
+    "name": "cordova-plugin-android-support-v4",
+    "downloads": 1713
+  },
+  {
+    "name": "cordova-sqlite-storage",
+    "downloads": 1685
+  },
+  {
+    "name": "cordova-plugin-screen-orientation",
+    "downloads": 1565
+  },
+  {
+    "name": "pushwoosh-cordova-plugin",
+    "downloads": 1534
+  },
+  {
+    "name": "cordova-plugin-admobpro",
+    "downloads": 1273
+  },
+  {
+    "name": "cordova-plugin-x-toast",
+    "downloads": 1218
+  },
+  {
+    "name": "cordova-plugin-extension",
+    "downloads": 1073
+  },
+  {
+    "name": "cordova-plugin-googleplayservices",
+    "downloads": 933
+  },
+  {
+    "name": "phonegap-plugin-contentsync",
+    "downloads": 741
+  },
+  {
+    "name": "cordova-plugin-facebook4",
+    "downloads": 738
+  },
+  {
+    "name": "is-just-me-startappmx",
+    "downloads": 683
+  },
+  {
+    "name": "csdk-plugin-test",
+    "downloads": 654
+  },
+  {
+    "name": "cordova-plugin-customurlscheme",
+    "downloads": 647
+  },
+  {
+    "name": "cordova-plugin-zip",
+    "downloads": 603
+  },
+  {
+    "name": "cordova-plugin-calendar",
+    "downloads": 568
+  },
+  {
+    "name": "cordova-plugin-ad-admob",
+    "downloads": 535
+  },
+  {
+    "name": "cordova-plugin-legacy-whitelist",
+    "downloads": 524
+  },
+  {
+    "name": "ionic-plugin-deploy",
+    "downloads": 487
+  },
+  {
+    "name": "cordova-plugin-cache",
+    "downloads": 483
+  },
+  {
+    "name": "uk.co.workingedge.phonegap.plugin.launchnavigator",
+    "downloads": 466
+  },
+  {
+    "name": "cordova-plugin-webserver",
+    "downloads": 454
+  },
+  {
+    "name": "cordova-plugin-pixlive",
+    "downloads": 451
+  },
+  {
+    "name": "cordova-plugin-wkwebview",
+    "downloads": 427
+  },
+  {
+    "name": "cordova-plugin-keyboard",
+    "downloads": 425
+  },
+  {
+    "name": "cordova-plugin-appversion",
+    "downloads": 401
+  },
+  {
+    "name": "cordova-plugin-barcodescanner",
+    "downloads": 385
+  },
+  {
+    "name": "cordova-plugin-zbtprinter",
+    "downloads": 355
+  },
+  {
+    "name": "cordova-plugin-websql",
+    "downloads": 355
+  },
+  {
+    "name": "cordova-volume-control",
+    "downloads": 354
+  },
+  {
+    "name": "cordova-plugin-themeablebrowser",
+    "downloads": 348
+  },
+  {
+    "name": "onesignal-cordova-plugin",
+    "downloads": 339
+  },
+  {
+    "name": "cordova-plugin-iosrtc",
+    "downloads": 331
+  },
+  {
+    "name": "urbanairship-cordova",
+    "downloads": 323
+  },
+  {
+    "name": "aerogear-cordova-push",
+    "downloads": 318
+  },
+  {
+    "name": "cordova-plugin-networkactivityindicator",
+    "downloads": 313
+  },
+  {
+    "name": "cordova-plugin-appavailability",
+    "downloads": 310
+  },
+  {
+    "name": "heyzap-cordova",
+    "downloads": 309
+  },
+  {
+    "name": "cc.fovea.cordova.purchase",
+    "downloads": 306
+  },
+  {
+    "name": "cordova-plugin-pushplugin",
+    "downloads": 304
+  },
+  {
+    "name": "cordova-plugin-sqlite",
+    "downloads": 303
+  },
+  {
+    "name": "cordova-plugin-indexeddb-async",
+    "downloads": 292
+  },
+  {
+    "name": "cordova-plugin-socialsharing",
+    "downloads": 291
+  },
+  {
+    "name": "cordova-plugin-shake",
+    "downloads": 290
+  },
+  {
+    "name": "cordova-plugin-intercom",
+    "downloads": 286
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-common",
+    "downloads": 279
+  },
+  {
+    "name": "cordova-plugin-applist",
+    "downloads": 276
+  },
+  {
+    "name": "cordova-plugin-app-preferences",
+    "downloads": 263
+  },
+  {
+    "name": "cordova-plugin-networkinterface",
+    "downloads": 261
+  },
+  {
+    "name": "cordova-plugin-media-with-compression-fork",
+    "downloads": 253
+  },
+  {
+    "name": "cordova-plugin-push-notification",
+    "downloads": 253
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-runtime",
+    "downloads": 250
+  },
+  {
+    "name": "cordova-plugin-deasmartclip",
+    "downloads": 246
+  },
+  {
+    "name": "cordova-plugin-fileopener",
+    "downloads": 245
+  },
+  {
+    "name": "cordova-plugin-hockeyapp",
+    "downloads": 244
+  },
+  {
+    "name": "cordova-plugin-insomnia",
+    "downloads": 235
+  },
+  {
+    "name": "cordova-plugin-ad-appodeal",
+    "downloads": 232
+  },
+  {
+    "name": "de.appplant.cordova.plugin.badge",
+    "downloads": 223
+  },
+  {
+    "name": "cordova-instagram-plugin",
+    "downloads": 221
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-storage",
+    "downloads": 220
+  },
+  {
+    "name": "cordova-plugin-auth-dialog",
+    "downloads": 220
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-bootstrap",
+    "downloads": 217
+  },
+  {
+    "name": "cordova-plugin-mauron85-background-geolocation",
+    "downloads": 217
+  },
+  {
+    "name": "cordova-plugin-geofence",
+    "downloads": 215
+  },
+  {
+    "name": "cordova-plugin-background-app",
+    "downloads": 214
+  },
+  {
+    "name": "cordova-plugin-sim",
+    "downloads": 214
+  },
+  {
+    "name": "cordova-plugin-websocket",
+    "downloads": 211
+  },
+  {
+    "name": "pushwoosh-beacons-cordova-plugin",
+    "downloads": 207
+  },
+  {
+    "name": "cordova.plugins.diagnosticlocation-shippeo",
+    "downloads": 199
+  },
+  {
+    "name": "cordova-plugin-background-geolocation",
+    "downloads": 194
+  },
+  {
+    "name": "com.cmackay.plugins.googleanalytics",
+    "downloads": 191
+  },
+  {
+    "name": "cordova-plugin-apple-watch",
+    "downloads": 190
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-navigation",
+    "downloads": 182
+  },
+  {
+    "name": "cordova-plugin-browsersync",
+    "downloads": 178
+  },
+  {
+    "name": "cordova-plugin-hostedwebapp",
+    "downloads": 177
+  },
+  {
+    "name": "cordova-plugin-notificare-push",
+    "downloads": 175
+  },
+  {
+    "name": "com.paypal.cordova.mobilesdk",
+    "downloads": 174
+  },
+  {
+    "name": "cordova-plugin-admob",
+    "downloads": 170
+  },
+  {
+    "name": "cordova.plugins.diagnostic",
+    "downloads": 170
+  },
+  {
+    "name": "cordova-plugin-social-message",
+    "downloads": 167
+  },
+  {
+    "name": "larry-plugin",
+    "downloads": 165
+  },
+  {
+    "name": "cordova-plugin-game",
+    "downloads": 160
+  },
+  {
+    "name": "cordova-plugin-customevent-polyfill",
+    "downloads": 158
+  },
+  {
+    "name": "cordova-plugin-blob-constructor-polyfill",
+    "downloads": 157
+  },
+  {
+    "name": "cordova-plugin-inappbilling",
+    "downloads": 156
+  },
+  {
+    "name": "cordova-plugin-ad-revmob",
+    "downloads": 154
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-i18n",
+    "downloads": 153
+  },
+  {
+    "name": "onesignal-cordova-plugin-pgb-compat",
+    "downloads": 153
+  },
+  {
+    "name": "cordova-plugin-xhr-blob-polyfill",
+    "downloads": 151
+  },
+  {
+    "name": "cordova-plugin-nativeaudio",
+    "downloads": 151
+  },
+  {
+    "name": "cordova-plugin-ad-unityads",
+    "downloads": 146
+  },
+  {
+    "name": "com.xebest.xe-plugin",
+    "downloads": 142
+  },
+  {
+    "name": "com.dt-workshop.inappcrossbrowser",
+    "downloads": 142
+  },
+  {
+    "name": "cordova-plugin-nativesettings",
+    "downloads": 140
+  },
+  {
+    "name": "com.shoety.cordova.plugin.inappbrowserxwalk",
+    "downloads": 139
+  },
+  {
+    "name": "cordova-open",
+    "downloads": 139
+  },
+  {
+    "name": "cordova-plugin-media-playback",
+    "downloads": 131
+  },
+  {
+    "name": "cordova-plugin-native-transitions",
+    "downloads": 130
+  },
+  {
+    "name": "cordova-plugin-test-framework",
+    "downloads": 130
+  },
+  {
+    "name": "cordova-plugin-ble-central",
+    "downloads": 130
+  },
+  {
+    "name": "couchbase-lite-phonegap-plugin",
+    "downloads": 128
+  },
+  {
+    "name": "cordova-plugin-imagepicker",
+    "downloads": 126
+  },
+  {
+    "name": "cordova-plugin-ad-adbuddiz",
+    "downloads": 125
+  },
+  {
+    "name": "cordova-plugin-ad-chartboost",
+    "downloads": 122
+  },
+  {
+    "name": "io-supportkit-sktcordovaplugin",
+    "downloads": 118
+  },
+  {
+    "name": "cordova-plugin-leanpush",
+    "downloads": 117
+  },
+  {
+    "name": "cordova-plugin-file-opener2",
+    "downloads": 113
+  },
+  {
+    "name": "cordova-plugin-fastrde-md5",
+    "downloads": 113
+  },
+  {
+    "name": "megaplan-plugin-push",
+    "downloads": 112
+  },
+  {
+    "name": "cordova-plugin-sms",
+    "downloads": 110
+  },
+  {
+    "name": "nl.dobots.bluenet",
+    "downloads": 109
+  },
+  {
+    "name": "cordova-plugin-fastrde-downloader",
+    "downloads": 109
+  },
+  {
+    "name": "cordova-plugin-pedometer",
+    "downloads": 107
+  },
+  {
+    "name": "cordova-plugin-parse-pushhandler",
+    "downloads": 106
+  },
+  {
+    "name": "cordova-plugin-dbcopy",
+    "downloads": 104
+  },
+  {
+    "name": "cordova-plugin-ionic-keyboard",
+    "downloads": 104
+  },
+  {
+    "name": "cordova-plugin-push-notification-cgvak",
+    "downloads": 104
+  },
+  {
+    "name": "pushbots-cordova-plugin",
+    "downloads": 104
+  },
+  {
+    "name": "aerogear-cordova-crypto",
+    "downloads": 101
+  },
+  {
+    "name": "cordova-plugin-number-dialog",
+    "downloads": 101
+  },
+  {
+    "name": "remcob00-cordova-youtube-android-player-api",
+    "downloads": 99
+  },
+  {
+    "name": "cordova-plugin-progress",
+    "downloads": 99
+  },
+  {
+    "name": "cordova-plugin-pindialog",
+    "downloads": 98
+  },
+  {
+    "name": "cordova-plugin-keepe-cardio",
+    "downloads": 96
+  },
+  {
+    "name": "cordova-plugin-directions",
+    "downloads": 96
+  },
+  {
+    "name": "admob-demo-app-ionic",
+    "downloads": 95
+  },
+  {
+    "name": "cordova-plugin-tune",
+    "downloads": 94
+  },
+  {
+    "name": "cordova-plugin-navigationbar",
+    "downloads": 92
+  },
+  {
+    "name": "cordova-plugin-repro",
+    "downloads": 91
+  },
+  {
+    "name": "com.purplebrain.adbuddiz.sdk",
+    "downloads": 91
+  },
+  {
+    "name": "cordova-plugin-device-sensor-fusion",
+    "downloads": 89
+  },
+  {
+    "name": "helpshift-plugin-phonegap",
+    "downloads": 89
+  },
+  {
+    "name": "twitter-connect-plugin",
+    "downloads": 88
+  },
+  {
+    "name": "cordova-plugin-pushnotification-parsepushnotification",
+    "downloads": 86
+  },
+  {
+    "name": "cordova-plugin-qtpaysdk",
+    "downloads": 85
+  },
+  {
+    "name": "cordova-plugin-gcmpushplugin",
+    "downloads": 84
+  },
+  {
+    "name": "cordova-plugin-gpslocation",
+    "downloads": 83
+  },
+  {
+    "name": "cordova-plugin-filepath",
+    "downloads": 82
+  },
+  {
+    "name": "uk.co.workingedge.cordova.plugin.sqliteporter",
+    "downloads": 81
+  },
+  {
+    "name": "cordova-plugin-ms-azure-mobile-apps",
+    "downloads": 79
+  },
+  {
+    "name": "cordova-plugin-ad-adcolony",
+    "downloads": 79
+  },
+  {
+    "name": "cordova-plugin-startapp",
+    "downloads": 79
+  },
+  {
+    "name": "start_app",
+    "downloads": 77
+  },
+  {
+    "name": "aerogear-cordova-geo",
+    "downloads": 77
+  },
+  {
+    "name": "cocoon-plugin-ads-ios-chartboost",
+    "downloads": 75
+  },
+  {
+    "name": "cordova-plugin-email",
+    "downloads": 73
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-notifications",
+    "downloads": 73
+  },
+  {
+    "name": "cordova-plugin-appsettings",
+    "downloads": 72
+  },
+  {
+    "name": "cordova-plugin-crosswalk-certificate",
+    "downloads": 71
+  },
+  {
+    "name": "medlei-parse-push-plugin",
+    "downloads": 71
+  },
+  {
+    "name": "cordova-safe",
+    "downloads": 70
+  },
+  {
+    "name": "cordova-ios-photo-library",
+    "downloads": 70
+  },
+  {
+    "name": "cordova-plugin-settings",
+    "downloads": 70
+  },
+  {
+    "name": "aerogear-cordova-oauth2",
+    "downloads": 69
+  },
+  {
+    "name": "cordova-plugin-touchid",
+    "downloads": 67
+  },
+  {
+    "name": "cordova-plugin-file-opener2-tectronik",
+    "downloads": 67
+  },
+  {
+    "name": "imeiplugin",
+    "downloads": 66
+  },
+  {
+    "name": "cordova-hot-code-push-plugin",
+    "downloads": 66
+  },
+  {
+    "name": "cordova-plugin-wechat",
+    "downloads": 66
+  },
+  {
+    "name": "cc.tgd.cordova.iap",
+    "downloads": 65
+  },
+  {
+    "name": "am.armsoft.mfilechooser",
+    "downloads": 65
+  },
+  {
+    "name": "cordova-hot-code-push-cli",
+    "downloads": 65
+  },
+  {
+    "name": "branch-sdk-imagitas",
+    "downloads": 64
+  },
+  {
+    "name": "cordova-plugin-qq",
+    "downloads": 64
+  },
+  {
+    "name": "codebakery-plugin-cellinfo",
+    "downloads": 64
+  },
+  {
+    "name": "cordova-plugin-locationservices",
+    "downloads": 64
+  },
+  {
+    "name": "aerogear-cordova-otp",
+    "downloads": 62
+  },
+  {
+    "name": "cordova-blinkup-plugin",
+    "downloads": 62
+  },
+  {
+    "name": "cordova-plugin-certificates",
+    "downloads": 62
+  },
+  {
+    "name": "cordovapush",
+    "downloads": 60
+  },
+  {
+    "name": "cordova.plugins.diagnosticlocation",
+    "downloads": 60
+  },
+  {
+    "name": "cordova-plugin-audio-recorder-api",
+    "downloads": 60
+  },
+  {
+    "name": "cordova-plugin-ad-vungle",
+    "downloads": 59
+  },
+  {
+    "name": "com.darktalker.cordova.screenshot",
+    "downloads": 59
+  },
+  {
+    "name": "boren-cordova-plugin-toast",
+    "downloads": 58
+  },
+  {
+    "name": "cordova-plugin-ms-adal",
+    "downloads": 57
+  },
+  {
+    "name": "am.armsoft.plugins.datepicker",
+    "downloads": 57
+  },
+  {
+    "name": "cordova-plugin-powermanagement",
+    "downloads": 56
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-sockets-udp",
+    "downloads": 55
+  },
+  {
+    "name": "cordova-plugin-hotpushes",
+    "downloads": 54
+  },
+  {
+    "name": "com.medlei.pushplugin",
+    "downloads": 53
+  },
+  {
+    "name": "cordova-plugin-purchase",
+    "downloads": 53
+  },
+  {
+    "name": "cordova-plugin-appinfo",
+    "downloads": 53
+  },
+  {
+    "name": "aplimovil-plugin-scandit",
+    "downloads": 52
+  },
+  {
+    "name": "cordova-plugin-webapptoolkit",
+    "downloads": 51
+  },
+  {
+    "name": "cordova-plugin-preventsleep",
+    "downloads": 51
+  },
+  {
+    "name": "cordova-plugin-qqsdk",
+    "downloads": 51
+  },
+  {
+    "name": "admob-demo-game-phaser",
+    "downloads": 51
+  },
+  {
+    "name": "cordova-plugin-bluenet-dfu",
+    "downloads": 50
+  },
+  {
+    "name": "com.telerik.stripe",
+    "downloads": 49
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-identity",
+    "downloads": 48
+  },
+  {
+    "name": "admob-demo-game-pixi",
+    "downloads": 48
+  },
+  {
+    "name": "cordova-plugin-crop",
+    "downloads": 47
+  },
+  {
+    "name": "cordova-plugin-opentokjs",
+    "downloads": 47
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-sockets-tcp",
+    "downloads": 46
+  },
+  {
+    "name": "cordova-plugin-smaato",
+    "downloads": 46
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-system-network",
+    "downloads": 45
+  },
+  {
+    "name": "cordova-plugin-facebookads",
+    "downloads": 43
+  },
+  {
+    "name": "cordova-plugin-country",
+    "downloads": 42
+  },
+  {
+    "name": "android-status-bar-disabler",
+    "downloads": 42
+  },
+  {
+    "name": "cordova-plugin-google-open-source-ios",
+    "downloads": 41
+  },
+  {
+    "name": "com-ugrokit-cordova-ugrokit",
+    "downloads": 41
+  },
+  {
+    "name": "cordova-locationkit",
+    "downloads": 41
+  },
+  {
+    "name": "cordova-plugin-tag-manager",
+    "downloads": 40
+  },
+  {
+    "name": "cordova-plugin-toast",
+    "downloads": 40
+  },
+  {
+    "name": "cordova-plugin-estimote",
+    "downloads": 40
+  },
+  {
+    "name": "cordova-plugin-webrtc",
+    "downloads": 40
+  },
+  {
+    "name": "cordova-plugin-bluetooth-status",
+    "downloads": 39
+  },
+  {
+    "name": "cocoon-plugin-ads-android-common",
+    "downloads": 39
+  },
+  {
+    "name": "cordova-plugin-urlhandler",
+    "downloads": 39
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-alarms",
+    "downloads": 39
+  },
+  {
+    "name": "cordova-plugin-android-idfa",
+    "downloads": 39
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-audiocapture",
+    "downloads": 39
+  },
+  {
+    "name": "cordova-plugin-dynamic-update",
+    "downloads": 38
+  },
+  {
+    "name": "cordova-plugin-exitapp",
+    "downloads": 38
+  },
+  {
+    "name": "cordova-plugin-connectsdk",
+    "downloads": 38
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-filesystem",
+    "downloads": 37
+  },
+  {
+    "name": "cordova-plugin-wifi",
+    "downloads": 37
+  },
+  {
+    "name": "cordova-plugin-facebookconnect-orlando",
+    "downloads": 37
+  },
+  {
+    "name": "cordova-plugin-broadcaster",
+    "downloads": 37
+  },
+  {
+    "name": "meteor-cordova-update-plugin",
+    "downloads": 37
+  },
+  {
+    "name": "cordova-plugin-ble",
+    "downloads": 37
+  },
+  {
+    "name": "boren-cordova-plugin-push",
+    "downloads": 37
+  },
+  {
+    "name": "cocoon-plugin-social-android-googleplaygames",
+    "downloads": 36
+  },
+  {
+    "name": "helloworld-plugin",
+    "downloads": 36
+  },
+  {
+    "name": "cocoon-plugin-common",
+    "downloads": 36
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-iossocketscommon",
+    "downloads": 35
+  },
+  {
+    "name": "cordova-plugin-game-center",
+    "downloads": 35
+  },
+  {
+    "name": "cordova-plugin-websql-async",
+    "downloads": 35
+  },
+  {
+    "name": "cocoon-plugin-inapps-android-amazon",
+    "downloads": 35
+  },
+  {
+    "name": "am.armsoft.plugins.listpicker",
+    "downloads": 35
+  },
+  {
+    "name": "com.helloarron.cordova.toast",
+    "downloads": 35
+  },
+  {
+    "name": "cordova-plugin-google-plus-ios",
+    "downloads": 34
+  },
+  {
+    "name": "cordova-plugin-velda-devicefeedback",
+    "downloads": 34
+  },
+  {
+    "name": "hello-larry-plugin",
+    "downloads": 34
+  },
+  {
+    "name": "samplehelloworld",
+    "downloads": 34
+  },
+  {
+    "name": "ibm-mfp-core",
+    "downloads": 34
+  },
+  {
+    "name": "cordova-plugin-weibo",
+    "downloads": 34
+  },
+  {
+    "name": "cordova-plugin-eddystone",
+    "downloads": 34
+  },
+  {
+    "name": "cordova-plugin-bb-app",
+    "downloads": 34
+  },
+  {
+    "name": "cordova-plugin-service-worker",
+    "downloads": 33
+  },
+  {
+    "name": "pushplugin",
+    "downloads": 33
+  },
+  {
+    "name": "phonegap-plugin-barcodescanner-quick",
+    "downloads": 33
+  },
+  {
+    "name": "cordova-plugin-cdp-nativebridge",
+    "downloads": 32
+  },
+  {
+    "name": "cordova-plugin-datetime-picker",
+    "downloads": 32
+  },
+  {
+    "name": "cordova-plugin-flurry",
+    "downloads": 31
+  },
+  {
+    "name": "cordova-plugin-progressindicator",
+    "downloads": 31
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-socket",
+    "downloads": 31
+  },
+  {
+    "name": "cordova-pgapp-plugin",
+    "downloads": 30
+  },
+  {
+    "name": "com-admob-plugin-cordova",
+    "downloads": 30
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-gcm",
+    "downloads": 30
+  },
+  {
+    "name": "cordova-plugin-panoramaviewer",
+    "downloads": 30
+  },
+  {
+    "name": "io.supportkit.sktcordovaplugin",
+    "downloads": 30
+  },
+  {
+    "name": "cordova-plugin-ulogin",
+    "downloads": 30
+  },
+  {
+    "name": "cordova-plugin-wifiutils",
+    "downloads": 29
+  },
+  {
+    "name": "cordova-plugin-openfilenative",
+    "downloads": 29
+  },
+  {
+    "name": "cordova-plugin-ar",
+    "downloads": 29
+  },
+  {
+    "name": "cordova-plugin-mfilechooser",
+    "downloads": 29
+  },
+  {
+    "name": "cordova-chrome-bluetoothsocket",
+    "downloads": 28
+  },
+  {
+    "name": "cordova-plugin-ms-azure-mobile-engagement",
+    "downloads": 28
+  },
+  {
+    "name": "cordova-plugin-admob-flurry",
+    "downloads": 28
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-power",
+    "downloads": 28
+  },
+  {
+    "name": "com.epnet.cordovaplugin.baidupush",
+    "downloads": 28
+  },
+  {
+    "name": "cordova-plugin-admob-facebook",
+    "downloads": 27
+  },
+  {
+    "name": "cordova-plugin-clipboard",
+    "downloads": 27
+  },
+  {
+    "name": "mobi.appcoins.ios-processes",
+    "downloads": 27
+  },
+  {
+    "name": "cordova-plugin-appsee",
+    "downloads": 27
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-bluetooth",
+    "downloads": 26
+  },
+  {
+    "name": "cocoon-plugin-inapps-common",
+    "downloads": 25
+  },
+  {
+    "name": "cordova-plugin-lianlianpay",
+    "downloads": 25
+  },
+  {
+    "name": "cordova-plugin-dgram",
+    "downloads": 25
+  },
+  {
+    "name": "xe-plugin",
+    "downloads": 25
+  },
+  {
+    "name": "cocoon-plugin-ads-android-mopub",
+    "downloads": 25
+  },
+  {
+    "name": "inlocomedia-cordova-plugin",
+    "downloads": 25
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-videocapture",
+    "downloads": 25
+  },
+  {
+    "name": "okstate-plugin-camera-overlay",
+    "downloads": 25
+  },
+  {
+    "name": "cordova-base64-image-saver",
+    "downloads": 25
+  },
+  {
+    "name": "cocoon-plugin-ads-common",
+    "downloads": 24
+  },
+  {
+    "name": "cordova-plugin-twitter",
+    "downloads": 24
+  },
+  {
+    "name": "cordova-plugin-root-detection",
+    "downloads": 24
+  },
+  {
+    "name": "cordova-plugin-indexeddb",
+    "downloads": 23
+  },
+  {
+    "name": "cordova-plugin-service-worker-background-sync",
+    "downloads": 23
+  },
+  {
+    "name": "cryptographyaes",
+    "downloads": 23
+  },
+  {
+    "name": "cordova-plugin-crypt-file",
+    "downloads": 23
+  },
+  {
+    "name": "com.simplifield.keyboardlocalize",
+    "downloads": 23
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-sockets-tcpserver",
+    "downloads": 22
+  },
+  {
+    "name": "uk.co.workingedge.phonegap.plugin.istablet",
+    "downloads": 22
+  },
+  {
+    "name": "cocoon-plugin-share",
+    "downloads": 22
+  },
+  {
+    "name": "cordova-plugin-mmedia",
+    "downloads": 22
+  },
+  {
+    "name": "cordova-plugin-notificationcenter",
+    "downloads": 22
+  },
+  {
+    "name": "cordova-plugin-bb-invoke",
+    "downloads": 21
+  },
+  {
+    "name": "yoavtest",
+    "downloads": 21
+  },
+  {
+    "name": "cordova-plugin-screenshot",
+    "downloads": 21
+  },
+  {
+    "name": "cordova-plugin-ms-outlook",
+    "downloads": 21
+  },
+  {
+    "name": "cordova-plugin-fonts",
+    "downloads": 21
+  },
+  {
+    "name": "vilic-cordova-plugin-wechat",
+    "downloads": 21
+  },
+  {
+    "name": "cordova-plugin-logtofile",
+    "downloads": 21
+  },
+  {
+    "name": "cordova-plugin-mopub",
+    "downloads": 20
+  },
+  {
+    "name": "cordova-plugin-admob-mmedia",
+    "downloads": 20
+  },
+  {
+    "name": "cordova-plugin-ms-files",
+    "downloads": 20
+  },
+  {
+    "name": "nl.kingsquare.cordova.background-audio",
+    "downloads": 20
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-usb",
+    "downloads": 19
+  },
+  {
+    "name": "cordova-plugin-supportedlanguages-en",
+    "downloads": 19
+  },
+  {
+    "name": "cordova-plugin-android-support-v7-appcompat",
+    "downloads": 19
+  },
+  {
+    "name": "cocoon-plugin-multiplayer-ios-gamecenter",
+    "downloads": 19
+  },
+  {
+    "name": "cordova-plugin-bb-sysdialog",
+    "downloads": 19
+  },
+  {
+    "name": "cordova-plugin-thumbnail",
+    "downloads": 18
+  },
+  {
+    "name": "fovea_context_engine",
+    "downloads": 18
+  },
+  {
+    "name": "cordova-plugin-iad",
+    "downloads": 18
+  },
+  {
+    "name": "cordova-plugin-bb-push",
+    "downloads": 18
+  },
+  {
+    "name": "cocoon-plugin-canvasplus-common",
+    "downloads": 18
+  },
+  {
+    "name": "cordova-plugin-bb-system",
+    "downloads": 18
+  },
+  {
+    "name": "cordova-plugin-fastrde-checkgps",
+    "downloads": 18
+  },
+  {
+    "name": "cordova-plugin-httpd",
+    "downloads": 18
+  },
+  {
+    "name": "cocoon-plugin-inapps-android-common",
+    "downloads": 18
+  },
+  {
+    "name": "context-sensing-cordova",
+    "downloads": 18
+  },
+  {
+    "name": "cordova-plugin-ms-aad-graph",
+    "downloads": 18
+  },
+  {
+    "name": "lowladb-cordova",
+    "downloads": 18
+  },
+  {
+    "name": "cordova-plugin-bb-io",
+    "downloads": 17
+  },
+  {
+    "name": "cordova-plugin-ad-iad",
+    "downloads": 17
+  },
+  {
+    "name": "cocoon-plugin-inapps-android-googleplay",
+    "downloads": 17
+  },
+  {
+    "name": "cordova.plugin.admobpro",
+    "downloads": 17
+  },
+  {
+    "name": "cordova-plugin-bb-filetransfer",
+    "downloads": 17
+  },
+  {
+    "name": "cobweb-camera-va-plugin",
+    "downloads": 17
+  },
+  {
+    "name": "cordova-plugin-google-payments",
+    "downloads": 17
+  },
+  {
+    "name": "cordova-plugin-bb-notification",
+    "downloads": 17
+  },
+  {
+    "name": "cocoon-plugin-social-common",
+    "downloads": 17
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-system-memory",
+    "downloads": 17
+  },
+  {
+    "name": "cordova-plugin-background-task",
+    "downloads": 17
+  },
+  {
+    "name": "cordova-plugin-admob-mobfox",
+    "downloads": 17
+  },
+  {
+    "name": "cocoon-plugin-social-ios-gamecenter",
+    "downloads": 17
+  },
+  {
+    "name": "cordova-plugin-bb-sensors",
+    "downloads": 17
+  },
+  {
+    "name": "cordova-plugin-admob-inmobi",
+    "downloads": 17
+  },
+  {
+    "name": "cordova-plugin-deviceinfo",
+    "downloads": 17
+  },
+  {
+    "name": "cocoon-plugin-multiplayer-android-googleplaygames",
+    "downloads": 17
+  },
+  {
+    "name": "cordova-plugin-privacyscreen",
+    "downloads": 17
+  },
+  {
+    "name": "cordova-plugin-hello",
+    "downloads": 17
+  },
+  {
+    "name": "cordova-plugin-bb-invoked",
+    "downloads": 17
+  },
+  {
+    "name": "cordova-plugin-euhttp",
+    "downloads": 16
+  },
+  {
+    "name": "cordova-plugin-bb-identity",
+    "downloads": 16
+  },
+  {
+    "name": "cordova-plugin-bbm",
+    "downloads": 16
+  },
+  {
+    "name": "cordova-plugin-document-contract",
+    "downloads": 16
+  },
+  {
+    "name": "cordova-plugin-binaryfilewriter",
+    "downloads": 16
+  },
+  {
+    "name": "cordova-plugin-bb-cover",
+    "downloads": 16
+  },
+  {
+    "name": "cordova-uxcam",
+    "downloads": 16
+  },
+  {
+    "name": "capptain-cordova",
+    "downloads": 16
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-idle",
+    "downloads": 16
+  },
+  {
+    "name": "cordova-plugin-service-worker-geofencing",
+    "downloads": 16
+  },
+  {
+    "name": "cordova-plugin-google-sign-in-ios",
+    "downloads": 16
+  },
+  {
+    "name": "cordova-plugin-bb-card",
+    "downloads": 16
+  },
+  {
+    "name": "cocoon-plugin-multiplayer-common",
+    "downloads": 16
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-system-display",
+    "downloads": 15
+  },
+  {
+    "name": "com.appshed.ioioplugin",
+    "downloads": 15
+  },
+  {
+    "name": "cordova-plugin-webp",
+    "downloads": 15
+  },
+  {
+    "name": "cordova-plugin-beacon",
+    "downloads": 15
+  },
+  {
+    "name": "cordova-plugin-bb-idservice",
+    "downloads": 15
+  },
+  {
+    "name": "cordova-plugin-admob-iad",
+    "downloads": 15
+  },
+  {
+    "name": "com.intel.xapkreader",
+    "downloads": 15
+  },
+  {
+    "name": "cordova-plugin-canvas2image",
+    "downloads": 15
+  },
+  {
+    "name": "cordova-plugin-locationservices-fix",
+    "downloads": 15
+  },
+  {
+    "name": "cordova-plugin-touch-keyboard",
+    "downloads": 15
+  },
+  {
+    "name": "cordova-plugin-bb-ctxmenu",
+    "downloads": 15
+  },
+  {
+    "name": "cordova-plugin-bb-payment",
+    "downloads": 15
+  },
+  {
+    "name": "cordova-plugin-bb-connection",
+    "downloads": 15
+  },
+  {
+    "name": "processes-plugin",
+    "downloads": 14
+  },
+  {
+    "name": "cordova-plugin-fastrde-injectview",
+    "downloads": 14
+  },
+  {
+    "name": "cordova-plugin-bb-utils",
+    "downloads": 14
+  },
+  {
+    "name": "cordova-plugin-compile-time",
+    "downloads": 14
+  },
+  {
+    "name": "cordova-fabric-plugin",
+    "downloads": 14
+  },
+  {
+    "name": "cordova-plugin-service-worker-notifications",
+    "downloads": 14
+  },
+  {
+    "name": "cordova-plugin-statusbar-dev",
+    "downloads": 14
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-system-cpu",
+    "downloads": 14
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-bluetoothsocket",
+    "downloads": 14
+  },
+  {
+    "name": "cordova-plugin-audiorecorder",
+    "downloads": 14
+  },
+  {
+    "name": "cordova-sense-connector",
+    "downloads": 14
+  },
+  {
+    "name": "cordova-plugin-ad-admob-mopub",
+    "downloads": 14
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-bluetoothlowenergy",
+    "downloads": 14
+  },
+  {
+    "name": "johnwargo-cordova-plugin-carrier",
+    "downloads": 13
+  },
+  {
+    "name": "cordova-plugin-admob-domob",
+    "downloads": 13
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-system-storage",
+    "downloads": 13
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-pushmessaging",
+    "downloads": 13
+  },
+  {
+    "name": "cordova-plugin-gamecenter",
+    "downloads": 13
+  },
+  {
+    "name": "cordova-plugin-curl",
+    "downloads": 13
+  },
+  {
+    "name": "cordova-plugin-fileviewer",
+    "downloads": 13
+  },
+  {
+    "name": "cordova-plugin-mobfox",
+    "downloads": 13
+  },
+  {
+    "name": "cordova.plugin.admob",
+    "downloads": 13
+  },
+  {
+    "name": "cordova-plugin-okhttp",
+    "downloads": 13
+  },
+  {
+    "name": "cordova-system-settings",
+    "downloads": 12
+  },
+  {
+    "name": "cordova-plugin-analytics-mixpanelanalytics",
+    "downloads": 12
+  },
+  {
+    "name": "cordova-qdc-baidu-push",
+    "downloads": 12
+  },
+  {
+    "name": "smsblackberry-plugbunch-cordova-plugin",
+    "downloads": 12
+  },
+  {
+    "name": "cocoon-plugin-multiplayer-ios-common",
+    "downloads": 12
+  },
+  {
+    "name": "cordova-plugin-ms-appinsights",
+    "downloads": 12
+  },
+  {
+    "name": "supersonic-phonegap",
+    "downloads": 12
+  },
+  {
+    "name": "cocoon-plugin-ads-ios-adcolony",
+    "downloads": 12
+  },
+  {
+    "name": "cordova-plugin-websqldatabase-initializer",
+    "downloads": 12
+  },
+  {
+    "name": "cordova-plugin-alljoyn",
+    "downloads": 12
+  },
+  {
+    "name": "cordova-plugin-websqldatabase",
+    "downloads": 11
+  },
+  {
+    "name": "cocoon-plugin-ads-android-mopub-inmobi",
+    "downloads": 11
+  },
+  {
+    "name": "cordova-plugin-bb-nativeaudio",
+    "downloads": 11
+  },
+  {
+    "name": "cocoon-plugin-ads-android-chartboost",
+    "downloads": 11
+  },
+  {
+    "name": "cordova-plugin-ad-admob-facebookads",
+    "downloads": 11
+  },
+  {
+    "name": "cocoon-plugin-ads-android-admob-adcolony",
+    "downloads": 11
+  },
+  {
+    "name": "cocoon-plugin-ads-ios-mopub",
+    "downloads": 11
+  },
+  {
+    "name": "cocoon-plugin-ads-ios-admob",
+    "downloads": 11
+  },
+  {
+    "name": "cordova-plugin-bb-contacts",
+    "downloads": 11
+  },
+  {
+    "name": "cordova-plugin-jailbreak-detection",
+    "downloads": 11
+  },
+  {
+    "name": "cocoon-plugin-ads-ios-mopub-admob",
+    "downloads": 10
+  },
+  {
+    "name": "cordova-plugin-adcash",
+    "downloads": 10
+  },
+  {
+    "name": "cordova-plugin-bb-dialog",
+    "downloads": 10
+  },
+  {
+    "name": "cordova-mave-plugin",
+    "downloads": 10
+  },
+  {
+    "name": "rongcloud_lib_plugin",
+    "downloads": 10
+  },
+  {
+    "name": "cordova_app_version_plugin",
+    "downloads": 10
+  },
+  {
+    "name": "cocoon-plugin-ads-android-mopub-millennialmedia",
+    "downloads": 10
+  },
+  {
+    "name": "cordova-plugin-emailsender",
+    "downloads": 10
+  },
+  {
+    "name": "cocoon-plugin-ads-ios-admob-adcolony",
+    "downloads": 10
+  },
+  {
+    "name": "cocoon-plugin-ads-android-mopub-greystripe",
+    "downloads": 10
+  },
+  {
+    "name": "cocoon-plugin-multiplayer-android-common",
+    "downloads": 10
+  },
+  {
+    "name": "cocoon-plugin-ads-android-mopub-adcolony",
+    "downloads": 10
+  },
+  {
+    "name": "cocoon-plugin-ads-ios-mopub-millennial",
+    "downloads": 10
+  },
+  {
+    "name": "cordova-plugin-ad-admob-iad",
+    "downloads": 10
+  },
+  {
+    "name": "cocoon-plugin-ads-ios-mopub-chartboost",
+    "downloads": 10
+  },
+  {
+    "name": "cordova-plugin-ad-admob-mojiva",
+    "downloads": 10
+  },
+  {
+    "name": "cordova-plugin-screendisplay",
+    "downloads": 10
+  },
+  {
+    "name": "com-dileepindia-cordova-sms",
+    "downloads": 10
+  },
+  {
+    "name": "cordova-plugin-deviceemails",
+    "downloads": 10
+  },
+  {
+    "name": "cordova-plugin-vibrate-intense",
+    "downloads": 10
+  },
+  {
+    "name": "cocoon-plugin-ads-android-mopub-admob",
+    "downloads": 10
+  },
+  {
+    "name": "cordova-plugin-bb-zip",
+    "downloads": 10
+  },
+  {
+    "name": "cocoon-plugin-ads-android-mopub-chartboost",
+    "downloads": 10
+  },
+  {
+    "name": "cordova-plugin-bb-calendar",
+    "downloads": 10
+  },
+  {
+    "name": "pgb-google-play-services",
+    "downloads": 9
+  },
+  {
+    "name": "fyber-phonegap",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-ad-admob-huntmads",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-bugsnag-plugin",
+    "downloads": 9
+  },
+  {
+    "name": "cocoon-plugin-ads-ios-mopub-adcolony",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-bb-sms",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-bb-pimlib",
+    "downloads": 9
+  },
+  {
+    "name": "cobweb-los-plugin",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-ad-admob-phunware",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-photokandy-video-thumbnail",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-password-crypto",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-ad-admob-leadbolt",
+    "downloads": 9
+  },
+  {
+    "name": "com.cordova.admob",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-ad-leadbolt",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-ad-admob-inmobi",
+    "downloads": 9
+  },
+  {
+    "name": "cocoon-plugin-ads-android-admob",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-upnp",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-pitch",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-leancloud",
+    "downloads": 9
+  },
+  {
+    "name": "cocoon-plugin-ads-android-adcolony",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-gamepad",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-bb-messageretrieve",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-audiometadata",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-iflyspeech",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-bb-crypto",
+    "downloads": 9
+  },
+  {
+    "name": "cocoon-plugin-ads-ios-common",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-boot-launcher",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-unity",
+    "downloads": 9
+  },
+  {
+    "name": "game-center-match-plugin",
+    "downloads": 9
+  },
+  {
+    "name": "cordova-plugin-ad-admob-lifestreetmedia",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-paypalmpl",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-iosaudiopicker",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-date-input",
+    "downloads": 8
+  },
+  {
+    "name": "fr.dpfr.wpmemoryenhancer",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-ad-admob-millennialmedia",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-konotor",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-bluetoothibeacon",
+    "downloads": 8
+  },
+  {
+    "name": "deviceaudioservice",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-smartadserver",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-bluetoothspp",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-service-worker-push",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-domob",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-adjust",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-deviceaudioservice",
+    "downloads": 8
+  },
+  {
+    "name": "cocoon-plugin-inapps-ios-appstore",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-appleiap",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-ad-admob-mobfox",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-ad-admob-flurryads",
+    "downloads": 8
+  },
+  {
+    "name": "cordova-plugin-led",
+    "downloads": 7
+  },
+  {
+    "name": "cordova-plugin-mediakeys",
+    "downloads": 7
+  },
+  {
+    "name": "cordova-plugin-flomio",
+    "downloads": 7
+  },
+  {
+    "name": "cordova-plugin-qtbridge",
+    "downloads": 7
+  },
+  {
+    "name": "cordova-plugin-mongoose",
+    "downloads": 7
+  },
+  {
+    "name": "demo-plugin",
+    "downloads": 7
+  },
+  {
+    "name": "cordova-plugin-bluetoothheartmonitor",
+    "downloads": 7
+  },
+  {
+    "name": "johnwargo-cordova-plugin-mol",
+    "downloads": 7
+  },
+  {
+    "name": "cordova-plugin-ad-admob-adcolony",
+    "downloads": 7
+  },
+  {
+    "name": "cordova-plugin-chrome-apps-test-framework",
+    "downloads": 6
+  },
+  {
+    "name": "cordova-plugin-photokandy-native-controls",
+    "downloads": 6
+  },
+  {
+    "name": "cordova-plugin-photokandy-localstorage",
+    "downloads": 6
+  }
+]

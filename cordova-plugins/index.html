@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Cordova Plugins</title>
+    <script src="./plugins-sorted.json"></script>
+  </head>
+  <body>
+    <h1>Cordova Plugins</h1>
+    <table id="pluginsTable"></table>
+  </body>
+  <script type="text/tpl" id="rowTpl">
+    <tr>
+      <td>{{name}}</td>
+      <td>{{downloads}}</td>
+    </tr>
+  </script>
+  <script>
+    (function () {
+      var dRowTpl = document.getElementById('rowTpl')
+          ,dPluginsTable = document.getElementById('pluginsTable')
+          ,rowTpl = dRowTpl.innerHTML
+          ,html = ""
+          ;
+
+      plugins.forEach(function (plugin) {
+        var tempHTML = '';
+        tempHTML = rowTpl.replace(/{{name}}/, plugin['name']);
+        tempHTML = tempHTML.replace(/{{downloads}}/, plugin['downloads']);
+
+        html += tempHTML;
+      });
+
+      dPluginsTable.innerHTML = html;
+    })();
+  </script>
+</html>

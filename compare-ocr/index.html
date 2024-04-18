@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Free OCR API V2023, Online OCR, Searchable PDF Creator, On-Premise OCR Software</title>
+    <!--  Google Fonts   -->
+    
+
+    <link rel="icon" href="./content/favicon2020.png" />
+
+    <link href="./content/bootstrap.css" rel="stylesheet" />
+    <link href="./content/magnific-popup.css" rel="stylesheet" />
+    <link href="./content/font-awesome.css" rel="stylesheet" />
+    <link href="./content/css.css?v=gmXJ4AR7V7j7YnwR0zWcmSpfBdGBVDaVP8462M0dXRw1" rel="stylesheet"/>
+
+    
+    <style>
+        #filedrag {
+            display: none;
+            font-weight: bold;
+            text-align: center;
+            padding: 1em 0;
+            margin: 1em 0;
+            color: #555;
+            border: 2px dashed #555;
+            border-radius: 7px;
+            cursor: default;
+        }
+
+            #filedrag.hover {
+                color: #f00;
+                border-color: #f00;
+                border-style: solid;
+                box-shadow: inset 0 3px 4px #888;
+            }
+
+
+        ul {
+            list-style: none outside none;
+            padding-left: 0;
+            margin: 0;
+        }
+        .headline span {
+            margin-top: 14px;
+            font-size: 32px;
+        }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MRFZ6KQ9EE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-MRFZ6KQ9EE');
+    </script>
+
+
+</head>
+<body>
+    <!-- style="overflow-x: hidden;" -->
+    <!-- HEADER STARTS HERE -->
+    <div id="header">
+        <!--  HEADER   -->
+        <div class="row">
+            <div class="span2 hide">
+                <!--  Logo  -->
+                <a href="/" id="logo">
+                    <img src="./content/ocrspacelogo2020b.png" alt="Online OCR API Logo" class="responsive-img">
+                </a>
+            </div>
+            <div class="span10 hide">
+                <a class="toggleMenu" id="mobile-menu-trigger" href="#"><i class="fa fa-bars"></i></a>
+                <ul class="nav" style="display:block;">
+                    <li>
+                        <a href="/">Online OCR</a>
+                    </li>
+                    <li>
+                        <a href="/OCRAPI"><code>Free OCR API</code></a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                        <ul class="children-menu">
+                            <li>
+                                <a href="/faq">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="https://forum.ui.vision/c/ocr-api/10" target="_blank">OCR API Forum</a>
+                            </li>
+                            <li>
+                                <a href="https://status.ocr.space" target="_blank">API Status</a>
+                            </li>
+                            <li>
+                                <a href="/copyfish">Copyfish OCR</a>
+                            </li>
+                            <li>
+                                <a href="/privacypolicy">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="/blog">OCR & More Blog</a>
+                            </li>
+                            <li>
+                                <a href="/contact">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="/about">About Us</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end #header -->
+    <!-- HEADER ENDS HERE -->
+    <!-- RENDER BODY STARTS HERE -->
+    
+
+<meta name="description" content="Free OCR API, Online OCR and Searchable PDF (Sandwich PDF) Service. Try instantly, no registration required. Available as On-Premise OCR Software, too. The Cloud OCR API is a REST-based Web API to extract text from images and convert scans to searchable PDF. Free OCR software as a hosted service and as download.">
+<meta name="keywords" content="OCR API, OCR SDK, OCR Software, Online OCR, PDF OCR, OCR, optical character recognition, Texterkennung">
+
+<div id="content">
+    <!--  CONTENT   -->
+    <div id="page-header" class="hide">
+        <div class="row">
+            <div class="span12 whitebg">
+                <h1>Free <span>OCR API</span> and Online OCR</h1>
+                <div class="process-builder">
+                    <ul class="fixed">
+                        <li class="color-shade-2">
+                            <img src="./content/upload.png">
+                            <div class="process-description">
+                                <h3><strong>Upload File</strong></h3>
+                            </div>
+                        </li>
+                        <li class="color-shade-3">
+                            <img src="./content/start.png">
+                            <div class="process-description">
+                                <h3><strong>Start OCR</strong></h3>
+                            </div>
+                        </li>
+                        <li class="color-shade-1">
+                            <img src="./content/result.png">
+                            <div class="process-description">
+                                <h3><strong>Get Result</strong></h3>
+                            </div>
+                        </li>
+                        <li class="color-shade-5">
+                            <img src="./content/overlay.png">
+                            <div class="process-description">
+                                <h3><strong>Check Overlay</strong></h3>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<form action="/OCR/ParseImage" class="form-horizontal" enctype="multipart/form-data" id="ocrForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="KHG0YABwkHS_P9cXKFxx8Ggi2t4Ooa8h4r2FahgcK--xs9zbhVpWELRs59f_VUi3cesvgV9HJZcEob8sQTDJvx03nTJ59_46Bu-31JMy4Dk1" />        <fieldset>
+            <div class="row">
+                <div class="span12">
+                    <h3 class="headline">
+                        <span>Compare OCR.space and Tesseract.js</span>
+                    </h3>
+                </div>
+
+                <div class="span12">
+                    <div class="span4">
+                        <p>Upload image or PDF file (.png,.jpg,.webp or .PDF)</p>
+                    </div>
+                    <div class="span8">
+                        <input type="file" id="imageFile" class="form-control choose">
+                    </div>
+                </div>
+
+                <div class="span12 hide"><h2 class="boldo">or</h2></div>
+
+                <div class="span12 hide">
+                    <div class="span4">
+                        <p>Paste url to source file (.png,.jpg,.webp or .PDF)</p>
+                    </div>
+                    <div class="span8">
+                        <input type="text" id="imageUrl" class="form-control choose">
+                    </div>
+                </div>
+
+
+                <div class="span12">
+                    <div class="span4">
+                        <p>Language</p>
+                    </div>
+                    <div class="span8">
+                        <select id="ocrLanguage" class="form-control valid selection">
+                                        <option value="ara">Arabic</option>
+                                        <option value="bul">Bulgarian</option>
+                                        <option value="chs">ChineseSimplified</option>
+                                        <option value="cht">ChineseTraditional</option>
+                                        <option value="hrv">Croatian</option>
+                                        <option value="cze">Czech</option>
+                                        <option value="dan">Danish</option>
+                                        <option value="dut">Dutch</option>
+                                        <option value="eng" selected="selected">English</option>
+                                        <option value="fin">Finnish</option>
+                                        <option value="fre">French</option>
+                                        <option value="ger">German</option>
+                                        <option value="gre">Greek</option>
+                                        <option value="hun">Hungarian</option>
+                                        <option value="ita">Italian</option>
+                                        <option value="jpn">Japanese</option>
+                                        <option value="kor">Korean</option>
+                                        <option value="pol">Polish</option>
+                                        <option value="por">Portuguese</option>
+                                        <option value="rus">Russian</option>
+                                        <option value="slv">Slovenian</option>
+                                        <option value="spa">Spanish</option>
+                                        <option value="swe">Swedish</option>
+                                        <option value="tur">Turkish</option>
+
+                        </select>
+                    </div>
+
+                    
+                </div>
+
+                <div class="span12" id="FileTypeDiv" style="display:none">
+                    <div class="span4">
+                        <p><a href="https://ocr.space/ocrapi#filetype">File type</a></p>
+                    </div>
+                    <div class="span8">
+                        <select id="ocrFiletype" class="form-control valid selection">
+                                        <option value=".Auto" selected="selected">Detect Automatically</option>
+                                        <option value=".bmp">BMP</option>
+                                        <option value=".gif">GIF</option>
+                                        <option value=".jpg">JPG/JPEG</option>
+                                        <option value=".pdf">PDF</option>
+                                        <option value=".png">PNG</option>
+
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="span12 hide" id="divRotateAndScaleMode">
+                    <div class="span4">
+                        <p>Detect orientation and <a href="/ocrapi#detectorientation">auto-rotate image if needed</a></p>
+                    </div>
+                    <div class="span8">
+                        <div class=""> <input type="checkbox" id="chkIsDetectOrientation" /></div>
+                    </div>
+                </div>
+
+                <div class="span12 hide" id="divOneColumnOnly">
+                    <div class="span4">
+                        <p>Do <a href="/receiptscanning">receipt scanning</a> and/or <a href="/tablerecognition">table recognition</a></p>
+                    </div>
+                    <div class="span8">
+                        <div class=""> <input type="checkbox" id="chkIsOneColumnOnly" /></div>
+                    </div>
+                </div>
+
+                <div class="span12 hide" id="divScale">
+                    <div class="span4">
+                        <p><a href="/autoscale">Auto-enlarge</a> content (recommended for <a href="/autoscale#dpi">low DPI</a>)</p>
+                    </div>
+                    <div class="span8">
+                        <div class=""> <input type="checkbox" id="chkIsScaleImage" checked /></div>
+                    </div>
+                </div>
+
+                <div class="span12 hide">
+                    <div class="span4" id="searchablepdf">Create <a href="/searchablepdf">Searchable PDF</a></div>
+                    <div class="span8">
+                        <div class="radio">
+                            <label class="col-lg-11" for="NoSearchable"><input type="radio" checked name="OutputType" value="3" id="NoSearchable"> Just extract text and show overlay (fastest option)</label>
+                        </div>
+
+                        <div class="radio">
+                            <label class="col-lg-11" for="SearchableAndLayer"><input type="radio" name="OutputType" value="1" id="SearchableAndLayer">Create searchable PDF with <em>visible</em> text layer</label>
+                        </div>
+
+                        <div class="radio">
+                            <label class="col-lg-11" for="SearchableOnly"><input type="radio" name="OutputType" value="2" id="SearchableOnly">Create searchable PDF with <em>invisible</em> text layer</label>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="span12">
+                    <div class="span4"><p>Select OCR Engine to use:</p></div>
+                    <div class="span8">
+                        <div class="radio">
+                            <label class="col-lg-11" for="engine1"><input type="radio" checked name="OCREngine" value="1" id="engine1">OCR.Space (Engine 1)</label>
+                        </div>
+                        <div class="radio hide">
+                            <label class="col-lg-11" for="engine5"><input type="radio" name="OCREngine" value="5" id="engine5">Use <a href="/ocrapi#ocrengine2">OCR Engine2</a> (Good OCR also for numbers and special characters like <code>%@$</code>)</label>
+                        </div>
+                        <div class="radio">
+                            <label class="col-lg-11" for="tesseract"><input type="radio" name="OCREngine" value="0" id="tesseract">Use <a href="https://tesseract.projectnaptha.com/">Tesseract.js</a></label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="span12">
+                    <p></p>
+                </div>
+
+                <div class="span12">
+                    <div class="span4"><p>Text to Highlight:</p></div>
+                    <div class="span8"><textarea id="searchText" rows="2" cols="80"></textarea></div>
+                </div>
+
+                <div class="span12">
+                    <div class="span2 pull-right" id="btnCancel"><a class="btn btn-large btn-green-light" onclick="Clear()">Clear</a></div>
+                    <div class="span2 pull-right" id="btnStartOCR"><a class="btn btn-large btn-green-light" onclick="StartOCR()">Start OCR!</a></div>
+                </div>
+                <div id="sucOrErrMesgMainDiv" class="span12" style="display:none">
+                    <div id="sucOrErrMesgDiv" class="alert alert-dismissible">
+                        <button type="button" id="sucOrErr" class="close">×</button> 
+                        <span id="sucOrErrMessage"></span>
+                    </div>
+                </div>
+
+                <div id="ErrMessageMainDiv" class="span12" style="display:none">
+                    <div id="ErrMessageDiv" class="alert alert-dismissable">
+                        <button type="button" id="Error" class="close">x</button>
+                        <span id="ErrorMessage"></span>
+                    </div>
+                </div>
+                <div id="WarMessageMainDiv" class="span12" style="display:none">
+                    <div id="WarMessageDiv" class="alert alert-dismissable">
+                        <button type="button" id="Warning" class="close">x</button>
+                        <span id="WarningMessage"></span>
+                    </div>
+                </div>
+
+
+                <div id="SearchableFileDownloadMainDiv" class="span12" style="display:none">
+                    <div id="SearchableFileDownloadDiv" class="alert alert-dismissible">
+                        <button type="button" id="SearchableURL" class="closePDFURL close">×</button>
+                        <span id="SearchablePDF"></span>
+                    </div>
+                </div>
+
+                <div id="animatedProgress" class="span12" style="display: none">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 progress progress-striped active">
+                        <div class="progress-bar" style="width: 100%"></div>
+                    </div>
+                </div>
+
+                <div style=" clear:both; margin-top:50px !important;"></div>
+
+                <div class="span12">
+                    <div id="imagePanel" class="span5 borderspanblue">
+                        <div class="imagearea">
+                            <h3>Image Preview</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div id="filedrag" style="height: 80%; width:95%; display: block">(You can also drag and drop image here)</div>
+                            <img id="previewImage" class="img-responsive" style="float:left; height:80%; width:95%;" />
+                        </div>
+                        <div>
+                            <h4 id="previewText" style="color: blue; margin: 10px;"></h4>
+                        </div>
+                    </div>
+
+                    <div class="span2" style="padding-right: 12px;">
+                        <a id="btnDownloadText" class="btn btn-large btn-green-light gap" onclick="DownloadText()">Download</a> <br />
+                        <a id="btnShowOverlay" class="example-image-link btn btn-large btn-green-light" onclick="ShowOverlay()">Show Overlay</a>
+                    </div>
+
+                    <div id="resultPanel" class="span5 borderspan">
+
+                        <div id="exTab1" class="panel-body">
+                            <div class="resultarea">
+                                <h3>OCR'ed Result</h3>
+                            </div>
+                            <ul class="nav nav-tabs nav-justified" role="tablist">
+                                <li class="active">
+                                    <a href="#Text" data-toggle="tab">Text</a>
+                                </li>
+                                <li>
+                                    <a href="#Json" data-toggle="tab">Json</a>
+                                </li>
+                            </ul>
+                            <br />
+                            <div class="tab-content clearfix">
+                                <div class="tab-pane fade in active" id="Text">
+                                    
+                                    <textarea class="form-control" cols="20" id="txtAreaParsedResult" name="parsedResult" rows="2">
+</textarea> 
+                                </div>
+                                <div class="tab-pane fade" id="Json">
+                                    
+                                    <textarea class="form-control" cols="20" id="jsonResult" name="TextOverlay" rows="2">
+</textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+</form>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <div class="row hide">
+        <div class="span12">
+            <h3 class="headline">
+                <span>Online OCR - How to use it</span>
+            </h3>
+        </div>
+        <p>
+
+
+            The <a href="https://ocr.space/">OCR.space Online OCR</a> service converts scans or (smartphone) images of text documents into editable files
+            by using Optical Character Recognition (OCR).  The OCR software also can <a href="/searchablepdf">get text from PDF</a>.
+        </p>
+
+        <p>
+
+            Our <a href="https://ocr.space">Online OCR</a> service is free to use, no registration necessary. Just upload your image files.
+            The OCR software takes JPG, PNG, GIF images or PDF documents as input. <a href="/searchablepdf">PDF OCR</a> supports multi-page documents
+            and multi-column text. The only restriction of the free online OCR that the images/PDF must not be larger than 5MB.
+            If you need to automate your OCR and process many documents, do not web-scrape this page. It is made for humans, not computers.
+            Instead, please use the provided <b style="background-color: yellow;"> <a href="https://ocr.space/OCRAPI">free OCR API</a></b>.
+        </p>
+
+        <p>
+            Your data is safe: This Online OCR service and the OCR API store no data, as outlined in our strict <a href="/privacypolicy">privacy policy</a>.
+        </p>
+
+
+
+        <div class="span12">
+            <h3 id="ocrlanguages" class="headline">
+                <span>Supported OCR languages </span>
+            </h3>
+        </div>
+
+        <p>
+            Each of the four OCR Engines uses different recognition methods and supports different OCR languages. We recommend that you try each one to find out which one works best for your documents.
+            If you need help selecting the best OCR engine for your project, please <a href="/contact">contact us</a>.
+        </p>
+
+        <p>
+
+
+            <table class="table table-bordered">
+                <thead>
+                <th class="col-md-5">OCR Language:</th>
+                <th class="col-md-3">OCR Engine 1</th>
+                <th class="col-md-3">OCR Engine 2</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="/arabic">Arabic OCR</a></td>
+                        <td>Yes</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Bulgarian OCR</td>
+                        <td>Yes</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/chinese">Chinese OCR</a> (Simplified and traditional characters)</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                       </tr>
+                    <tr>
+                        <td>Croatian OCR</td>
+                        <td>Yes</td>
+                        <td>-</td>
+        
+                    </tr>
+                    <tr>
+                        <td>Danish OCR</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        </tr>
+                    <tr>  <td>Dutch OCR</td>    <td>Yes</td>  <td>Yes</td>    </tr>
+                    <tr>     <td><a href="/english">English OCR</a> (<a href="#englishincluded">*</a>)</td>    <td>Yes</td> <td>Yes</td> </tr>
+                    <tr> <td>Finnish OCR</td>    <td>Yes</td>      <td>Yes</td>                    </tr>
+                    <tr>  <td><a href="/french">French OCR</a></td>    <td>Yes</td>  <td>Yes</td>           </tr>
+                    <tr>  <td><a href="/german">German OCR</a></td>   <td>Yes</td>    <td>Yes</td>        </tr>
+                    <tr>  <td><a href="/greek">Greek OCR</a></td>   <td>Yes</td>    <td>-</td>       </tr>
+                    <tr>  <td><a href="/hindi">Hindi OCR</a></td>   <td>(Planned)</td>    <td></td>       </tr>
+                    <tr>  <td>Hungarian OCR</td>   <td>Yes</td>    <td>-</td>      </tr>
+                    <tr>  <td><a href="/italian">Italian OCR</a></td>   <td>Yes</td>    <td>Yes</td>      </tr>
+                    <tr>  <td><a href="/japanese">Japanese OCR</a></td>    <td>Yes</td>    <td>-</td>         </tr>
+                    <tr>  <td><a href="/korean">Korean OCR</a> </td>       <td>Yes</td>    <td>-</td>       </tr>
+                    <tr>  <td>Kannada OCR</td>   <td>(Planned)</td>    <td>-</td>        </tr>
+                    <tr>  <td>Norwegian OCR</td>   <td>-</td>    <td>Yes</td>           </tr>
+                    <tr>  <td>Persian(Farsi) OCR</td>   <td>(Planned)</td>    <td>-</td>       </tr>
+                    <tr>  <td>Polish OCR</td>   <td>Yes</td>    <td>-</td>        </tr>
+                    <tr>  <td><a href="/portuguese">Portuguese OCR</a></td>   <td>Yes</td>    <td>Yes</td>        </tr>
+                    <tr>  <td><a href="/russian">Russian OCR</a></td>   <td>Yes</td>    <td>-</td>        </tr>
+                    <tr>  <td><a href="/spanish">Spanish OCR</a></td>   <td>Yes</td>    <td>Yes</td>       </tr>
+                    <tr>  <td>Slovenian OCR</td>   <td>Yes</td>    <td>Yes</td>           </tr>
+                    <tr>  <td>Swedish OCR</td>   <td>Yes</td>    <td>Yes</td>          </tr>
+                    <tr>  <td>Tamil OCR</td>   <td>(Planned)</td>    <td>-</td>        </tr>
+                    <tr>  <td>Telugu OCR</td>   <td>(Planned)</td>    <td>-</td>       </tr>
+                    <tr>  <td><a href="/thai">Thai OCR</a></td>   <td>(Planned)</td>    <td>-</td>       </tr>
+                    <tr>  <td>Turkish OCR</td>   <td>Yes</td>    <td>-</td>       </tr>
+                    <tr>  <td>Vietnamese OCR</td>   <td>(Planned)</td>    <td>-</td>      </tr>
+                    <tr>  <td>Special characters like <code>§%&()=@€</code></td>   <td>Yes (limited)</td>    <td>Yes</td>      </tr>
+                    <tr>  <td>Language autodetection</td>   <td>-</td>    <td>(Planned)</td>     </tr>
+                </tbody>
+            </table>
+
+        </p>
+        <p id="englishincluded">(*) English OCR is always included: In addition to the selected OCR language (e. g. Japanese), the English alphabet is also recognized.</p>
+
+
+        <h3 class="headline" id="propdf">
+            <span>Get your own, private, secure OCR portal page</span>
+        </h3>
+        <p>
+            If you want to convert larger PDF documents without page and size limit you can <b style="background-color: yellow;">
+                <a href="https://ocrspace.onfastspring.com/ocr-api-pro-pdf" target="_top">
+                    subscribe to our PRO PDF plan
+                </a>
+            </b>. In addition to the <a href="https://ocr.space/OCRAPI#pro">PRO version</a> of the API, this plan includes a custom OCR form just like the one on this page
+            but <em>without the page and size limits</em>. So you can use the power of our PDF OCR solution even without using the OCR API directly, at no extra costs.
+            If you have any questions, please <a href="/contact">contact us</a>.
+        </p>
+
+
+    </div>
+</div>
+
+
+
+<script>
+    window.onload = function () {
+        var selectedLanguage = getCookie("selectedLanguage");
+
+        if (selectedLanguage)
+            $("#ocrLanguage").val(selectedLanguage);
+    }
+</script>
+
+
+
+
+    <!-- RENDER BODY ENDS HERE -->
+    <!-- FOOTER STARTS HERE -->
+    <!-- stuff that should not be here... will be cleaned up soon ;-) -->
+    <script async type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-559c3d8e227b08cc" async="async"></script>
+
+
+    <div class="bigborder"></div>
+    <div class="row hide">
+        <div class="span3">
+            <a href="https://status.ocr.space"><i class="fa fa-bar-chart"></i> View OCR API Performance</a><br />
+            <a href="http://www.twitter.com/a9t9_com"><i class="fa fa-twitter"></i> Follow OCR API on X/Twitter</a><br />
+
+            <a href="https://ui.vision"><i class="fa fa-barcode"></i> Free Open-Source RPA Software</a><br />
+            <a href="https://chrome.google.com/webstore/detail/copyfish-%F0%9F%90%9F-free-ocr-soft/eenjdnjldapjajjofmldgmkjaienebbj">
+                <i class="fa fa-gear"></i> Copyfish OCR Browser Extension
+            </a><br />
+            <a href="https://ui.vision/rpa/docs/selenium-ide"><i class="fa fa-gear"></i> Selenium IDE</a><br />
+
+        </div>
+        <div class="span9 nomargin">
+
+
+            Try <em>UI.Vision RPA</em>, our OCR-powered <a href="https://ui.vision">Robotic Process Automation (RPA) software</a>. It is available as
+            free browser extension as <a href="https://chrome.google.com/webstore/detail/uivision-rpa/gcbalfbdmfieckjlnblleoemohcganoc">RPA Chrome</a>
+            and <a href="https://addons.mozilla.org/en-US/firefox/addon/rpa/">RPA Firefox</a> (OSI-certified Open-Source) plus <a href="https://ui.vision/rpa/x">computer-vision extension modules</a>.
+
+            UI.Vision RPA is fun to use - and its <a href="https://ui.vision/rpa/x/desktop-automation/screen-scraping#docs">OCR screen scraping</a> features are powered by the OCR.space <a href="/OCRAPI">OCR API</a>.
+            <br /><br />
+            Do you have an OCR API question? Please <a href="..\contact">email us</a>
+            or visit the <a href="https://forum.ui.vision/c/ocr-api">OCR API Forum</a> - we love to answer OCR questions.
+
+        </div>
+    </div>
+    <div class="bigborder2"></div>
+    <div id="footer" class="hide">
+        <div id="footer-bottom">
+            <div class="row">
+                <div class="span12" id="footer-bottom-widget-area-1">
+                    <div class="widget widget_text">
+                        <div class="textwidget">
+                            <p class="last">
+                                &#0169; Copyright 2016-2024 - <i>OCR.SPACE</i> is a service of a9t9 software GmbH. <a href="/privacypolicy">Website and OCR API Privacy Policy</a> - System status: <a href="https://status.ocr.space">OCR API Public Status Dashboard</a> - OCR API V3.52
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- FOOTER ENDS HERE -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js'></script>
+    <script src="./content/modernizr.es?v=qVODBytEBVVePTNtSFXgRX0NCEjh9U_Oj8ePaSiRcGg1"></script>
+
+    <script src="./content/jquery.es?v=x_mvfAOKukIQC9y8h8mlbFi86b06-jGT_DnXBz4plZ41"></script>
+
+
+    
+
+    
+    <script async src="./content/bootstrap.min.js"></script>
+    <script async src="./content/jquery.magnific-popup.min.js"></script>
+    <script  src="./content/pdf.js"></script>
+    <script  src="./content/pdf.worker.js"></script>
+    <script   src="./content/jquery-ocr-starter.js"></script>
+    
+    <script  async src="./content/plugins.js"></script>
+    <script async src="./content/script.js"></script>
+
+    
+    <script src="./content/jqueryval.es?v=mRjM0qa6T8GTCa8lhmXMI_-t5fsTCmHSxo4BqkY9x4A1"></script>
+
+
+    <script type="text/javascript">
+        var webApiBaseURL = 'https://api8.ocr.space/';
+        var webApiParseImageRelativeURL = 'parse/image';
+    </script>
+
+
+
+</body>
+</html>
+
